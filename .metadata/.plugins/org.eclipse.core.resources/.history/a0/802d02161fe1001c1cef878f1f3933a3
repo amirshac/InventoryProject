@@ -1,0 +1,18 @@
+package inventory.Runner;
+
+import inventory.DBservice.MockDBService;
+
+public class Runner {
+
+	public static void generateDevices() {
+		
+	}
+	
+	public static void main(String[] args) {
+		MockDBService db = new MockDBService();
+		db.saveToFile();
+		
+		generateDevices();
+	}
+
+}

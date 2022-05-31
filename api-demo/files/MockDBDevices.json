@@ -1,0 +1,23 @@
+{
+  "96e98128-70fb-432d-8135-ae7c330da120": {
+    "reading": 0.0,
+    "uuid": "96e98128-70fb-432d-8135-ae7c330da120",
+    "type": "ACTUATOR",
+    "model": "Act-01",
+    "manufacturer": "SolarEdge"
+  },
+  "bf4bc2b9-18ef-4ac3-9925-03c431d77082": {
+    "reading": 0.0,
+    "uuid": "bf4bc2b9-18ef-4ac3-9925-03c431d77082",
+    "type": "CONTROLLER",
+    "model": "Cont-01",
+    "manufacturer": "Samsung"
+  },
+  "dd01abee-c3b7-4b31-bd4d-502d59fbb87f": {
+    "reading": 0.0,
+    "uuid": "dd01abee-c3b7-4b31-bd4d-502d59fbb87f",
+    "type": "SENSOR",
+    "model": "Sens-01",
+    "manufacturer": "AMD"
+  }
+}

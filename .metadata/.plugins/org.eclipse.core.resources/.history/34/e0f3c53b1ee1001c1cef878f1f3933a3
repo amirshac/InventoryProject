@@ -1,0 +1,21 @@
+package Utils;
+
+import java.io.FileWriter;
+import java.io.IOException;
+
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+
+public class GsonUtil {
+	public static void saveObjectToJsonFile(Object object, String fileName) {
+		GsonBuilder gsonBuilder = new GsonBuilder();
+		gsonBuilder = gsonBuilder.setPrettyPrinting();   //Sets pretty formatting
+		Gson gson = gsonBuilder.create();                //Create Gson reference
+		
+		try (FileWriter writer = new FileWriter(fileName)){
+			gson.toJson(object, writer);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}	
+	}
+}

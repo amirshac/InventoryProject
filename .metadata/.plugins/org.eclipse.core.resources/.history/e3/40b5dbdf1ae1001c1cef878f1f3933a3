@@ -1,0 +1,6 @@
+package inventory.models;
+
+public class tcpClient {
+	private final static String SERVER_NAME = "localhost";
+	private final static int SERVER_PORT = 8080;
+}

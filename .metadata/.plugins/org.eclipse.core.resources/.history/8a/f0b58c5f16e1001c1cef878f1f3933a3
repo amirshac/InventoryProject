@@ -1,0 +1,12 @@
+package inventory.models;
+
+public class Device extends Hardware{
+	protected double reading;
+	
+	public Device() {}
+	
+	public Device(HardwareType type, String model, String manufacturer) {
+		super(type,model,manufacturer);
+	}
+
+}
