@@ -126,7 +126,6 @@ public class InventoryServer {
 
 			List<Device> deviceListCurrentlyInDB = db.getIotDevicesByIotUuid(iot.getUuid());
 			
-			List<Device> devicesToRemove = new ArrayList<Device>(); 
 
 			db.addIotToDB(iot);
 			

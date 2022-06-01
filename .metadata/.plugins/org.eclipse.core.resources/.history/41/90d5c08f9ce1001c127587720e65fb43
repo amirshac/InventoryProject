@@ -61,12 +61,6 @@ public class MockDBService {
 		return removeIotByUuid(UUID.fromString(UuidString));
 	}
 	
-	public synchronized List<Device> getIotDevicesByIotUuid(UUID Uuid){
-		IotThing iot = getIotByUuid(Uuid);
-		if (iot == null) return null;
-		return iot.getDevices();
-	}
-	
 	/**
 	 * Adds device to DB
 	 * @param device

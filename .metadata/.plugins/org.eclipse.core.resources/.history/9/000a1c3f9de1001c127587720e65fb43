@@ -40,7 +40,7 @@ public class Device extends Hardware{
 		this.reading = reading;
 	}
 	
-	public void simulateRandomReading() {
+	public void simulateReading() {
 		Random random = new Random();
 		setReading(random.nextDouble(MIN_READING,MAX_READING));
 	}

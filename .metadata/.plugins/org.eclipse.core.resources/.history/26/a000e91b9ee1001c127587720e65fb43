@@ -121,15 +121,9 @@ public class InventoryServer {
 		}
 		
 		protected synchronized void updateDB() {
-			
-			if (iot==null) return;
+			if (iot!=null) 
+				db.addIotToDB(iot);
 
-			List<Device> deviceListCurrentlyInDB = db.getIotDevicesByIotUuid(iot.getUuid());
-			
-			List<Device> devicesToRemove = new ArrayList<Device>(); 
-
-			db.addIotToDB(iot);
-			
 			if (deviceList!=null && !deviceList.isEmpty()) {
 				deviceList.forEach(device->db.addDeviceToDB(device));
 			}
