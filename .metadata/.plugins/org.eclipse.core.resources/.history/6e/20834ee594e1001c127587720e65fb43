@@ -18,8 +18,7 @@ public class IOTThing extends Hardware{
 		devices = new ArrayList<Device>();
 	}
 	public IOTThing(String uuidString, HardwareType type, String model, String manufacturer) {
-		super(uuidString, type ,model,manufacturer);
-		devices = new ArrayList<Device>();
+		super(uuidString, type,model,manufacturer);
 	}
 	
 	public void setDevices(List<Device> devices) {

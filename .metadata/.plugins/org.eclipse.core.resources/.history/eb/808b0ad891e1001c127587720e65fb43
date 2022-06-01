@@ -17,13 +17,6 @@ public class Hardware {
 		setManufacturer(manufacturer);
 	}
 	
-	public Hardware(String uuidString, HardwareType type, String model, String manufacturer) {
-		setUuid(UUID.fromString(uuidString));
-		setType(type);
-		setModel(model);
-		setManufacturer(manufacturer);
-	}
-	
 	protected synchronized void generateUUID() {
 		setUuid(UUID.randomUUID());
 	}

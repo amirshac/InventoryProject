@@ -33,13 +33,13 @@ public class MockDB {
 	
 	private void seedDevices() {
 		List<Device> deviceList1 = Arrays.asList( 
-				new Device("db1", HardwareType.ACTUATOR, "Act-01", "SolarEdge"),
-				new Device("db2", HardwareType.CONTROLLER, "Cont-01", "Samsung"),
-				new Device("db3", HardwareType.SENSOR, "Sens-01", "AMD"));
+				new Device(HardwareType.ACTUATOR, "Act-01", "SolarEdge"),
+				new Device(HardwareType.CONTROLLER, "Cont-01", "Samsung"),
+				new Device(HardwareType.SENSOR, "Sens-01", "AMD"));
 		
 		deviceMap = deviceList1.stream().collect(Collectors.toMap(Device::getUuid, Function.identity()));
 		
-		IOTThing thing1 = new IOTThing("db4", HardwareType.IOT, "Reporter-01", "SolarEdge");
+		IOTThing thing1 = new IOTThing(HardwareType.IOT, "Reporter-01", "SolarEdge");
 		thing1.setDevices(deviceList1);
 		
 		iotMap.put(thing1.getUuid(), thing1);
