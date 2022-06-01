@@ -6,7 +6,9 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.ServerSocket;
 import java.net.Socket;
+import java.util.ArrayList;
 import java.util.List;
+import java.util.UUID;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
@@ -124,10 +126,29 @@ public class InventoryServer {
 			
 			if (iot==null) return;
 
-			List<Device> deviceListCurrentlyInDB = db.getIotDevicesByIotUuid(iot.getUuid());
+			IotThing dbIot = db.getIotByUuid(iot.getUuid());
+			System.out.println("dbiot:" + dbIot);
 			
-			List<Device> devicesToRemove = new ArrayList<Device>(); 
-
+			// Compare current device list in DB against the new list report, then remove the missing 'dropped' devices, before adding new devices to database
+			List<Device> deviceListInDB = db.getIotDevicesByIotUuid(iot.getUuid());
+			System.out.println("list in db " +deviceListInDB);
+			
+			if (deviceListInDB!=null) {
+				List<UUID> uuidsInDB = deviceListInDB.stream().map(p->p.getUuid()).toList();
+				List<UUID> uuidsInReport = deviceList.stream().map(p->p.getUuid()).toList();
+			
+				List<UUID> uuidsToRemove = uuidsInDB.stream().filter(item->!uuidsInReport.contains(item)).toList();
+				System.out.println("in db " + uuidsInDB);
+				System.out.println("in report " + uuidsInReport);
+				System.out.println("to remove " + uuidsToRemove);
+			
+			
+				if (!uuidsToRemove.isEmpty()){
+					uuidsToRemove.forEach(item->db.removeDeviceByUuid(item));	
+				}
+			}
+			
+			// now add the new information to DB
 			db.addIotToDB(iot);
 			
 			if (deviceList!=null && !deviceList.isEmpty()) {

@@ -1,9 +1,0 @@
-package inventory.Runner;
-
-public class Runner {
-
-	public static void main(String[] args) {
-		MockDBService dbService = new MockDBService();
-	}
-
-}

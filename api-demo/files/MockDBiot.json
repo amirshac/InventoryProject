@@ -1,60 +1,60 @@
 {
-  "5cdc29c4-a6c4-42fa-a766-929316c7c957": {
-    "devices": [
-      {
-        "reading": 0.0,
-        "uuid": "ad8af192-e49e-42fb-bdbf-7bd2d013d9d5",
-        "type": "ACTUATOR",
-        "model": "Act-01",
-        "manufacturer": "SolarEdge"
-      },
-      {
-        "reading": 0.0,
-        "uuid": "f7dce26a-013b-4f97-a900-884fc3691d68",
-        "type": "CONTROLLER",
-        "model": "Cont-01",
-        "manufacturer": "Samsung"
-      },
-      {
-        "reading": 0.0,
-        "uuid": "538144c9-fe75-4e0b-9d5a-adf6f0db1a8b",
-        "type": "SENSOR",
-        "model": "Sens-01",
-        "manufacturer": "AMD"
-      }
-    ],
-    "uuid": "5cdc29c4-a6c4-42fa-a766-929316c7c957",
-    "type": "IOT",
-    "model": "Reporter-01",
-    "manufacturer": "SolarEdge"
-  },
-  "79fb265e-c16d-4acd-865a-7757bdc9a46f": {
+  "0efc63d8-9b2a-35c1-9569-97d0cbf0db1a": {
     "devices": [
       {
         "reading": 10.0,
-        "uuid": "99b69be5-b30c-4b30-a67e-bb72c08260ae",
+        "uuid": "b7f86a38-be91-33c1-a4ae-ba52940975e8",
         "type": "ACTUATOR",
         "model": "Act-02",
         "manufacturer": "SolarEdge"
       },
       {
         "reading": 10.0,
-        "uuid": "5b441709-927d-4deb-bc34-6abe394564aa",
+        "uuid": "53df4857-3ea7-3141-ac78-e3a48bf0b437",
         "type": "CONTROLLER",
         "model": "Cont-02",
         "manufacturer": "Samsung"
       },
       {
         "reading": 10.0,
-        "uuid": "d9ecf309-0e3a-42b0-8d50-6790bbbc45ca",
+        "uuid": "b33622e4-8beb-3db0-8b37-a0498b39e8f9",
         "type": "SENSOR",
         "model": "Sens-02",
         "manufacturer": "AMD"
       }
     ],
-    "uuid": "79fb265e-c16d-4acd-865a-7757bdc9a46f",
+    "uuid": "0efc63d8-9b2a-35c1-9569-97d0cbf0db1a",
     "type": "IOT",
     "model": "Reporter-02",
+    "manufacturer": "SolarEdge"
+  },
+  "51e3da50-d40e-3ccf-97e7-a4eb27ae17af": {
+    "devices": [
+      {
+        "reading": 0.0,
+        "uuid": "d384a947-daa0-30f3-9257-1d6b0039dd30",
+        "type": "ACTUATOR",
+        "model": "Act-01",
+        "manufacturer": "SolarEdge"
+      },
+      {
+        "reading": 0.0,
+        "uuid": "ea95a7d8-0f83-3c61-b9f1-53f2638ea853",
+        "type": "CONTROLLER",
+        "model": "Cont-01",
+        "manufacturer": "Samsung"
+      },
+      {
+        "reading": 0.0,
+        "uuid": "6d901ff5-7d17-358d-8100-ea0211571864",
+        "type": "SENSOR",
+        "model": "Sens-01",
+        "manufacturer": "AMD"
+      }
+    ],
+    "uuid": "51e3da50-d40e-3ccf-97e7-a4eb27ae17af",
+    "type": "IOT",
+    "model": "Reporter-01",
     "manufacturer": "SolarEdge"
   }
 }

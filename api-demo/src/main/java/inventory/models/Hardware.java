@@ -2,7 +2,7 @@ package inventory.models;
 
 import java.util.UUID;
 
-public class Hardware {
+public class Hardware{
 	UUID uuid;
 	HardwareType type;
 	String model;

@@ -18,16 +18,16 @@ public class ClientRunner {
 	static MockDBService db = new MockDBService();
 	
 	public static void generateDevices() {
-		Device device1 = new Device(HardwareType.ACTUATOR, "Act-02", "SolarEdge");
+		Device device1 = new Device("run1".getBytes(),HardwareType.ACTUATOR, "Act-02", "SolarEdge");
 		device1.setReading(10);
-		Device device2 = new Device(HardwareType.CONTROLLER, "Cont-02", "Samsung");
+		Device device2 = new Device("run2".getBytes(),HardwareType.CONTROLLER, "Cont-02", "Samsung");
 		device2.setReading(10);
-		Device device3 = new Device(HardwareType.SENSOR, "Sens-02", "AMD");
+		Device device3 = new Device("run3".getBytes(),HardwareType.SENSOR, "Sens-02", "AMD");
 		device3.setReading(10);
 		
 		List<Device> deviceList1 = Arrays.asList(device1, device2, device3);
 		
-		thing1 = new IotThing(HardwareType.IOT, "Reporter-02", "SolarEdge");
+		thing1 = new IotThing("run4".getBytes(),HardwareType.IOT, "Reporter-02", "SolarEdge");
 		thing1.setDevices(deviceList1);
 		
 //		GsonUtil.saveObjectToJsonFile(device1, "files/device1.json");
