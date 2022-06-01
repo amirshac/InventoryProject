@@ -3555,3 +3555,680 @@ Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.ExceptionI
 2022-06-01 10:15:28,245 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
 2022-06-01 10:15:28,246 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-06-01 10:15:28,246 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 10:17:46,936 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:17:46,936 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 10:17:46,936 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:17:46,936 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 10:17:58,983 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:17:58,983 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 10:17:58,984 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:17:58,984 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 10:18:28,546 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:18:28,546 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 10:18:28,546 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:18:28,546 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 10:18:41,157 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:18:41,157 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 10:18:41,158 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:18:41,158 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 10:22:07,518 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:22:07,518 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 10:22:07,518 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:22:07,519 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 10:23:11,215 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:23:11,216 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 10:23:11,216 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:23:11,216 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 10:23:15,555 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:23:15,555 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 10:23:15,556 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:23:15,556 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 10:23:27,885 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:23:27,886 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 10:23:27,886 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:23:27,886 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 10:23:36,981 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:23:36,982 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 10:23:36,982 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:23:36,982 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 10:24:15,374 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:24:15,374 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 10:24:15,375 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:24:15,375 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 10:24:30,395 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:24:30,396 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 10:24:30,396 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:24:30,396 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 10:24:43,917 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:24:43,917 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 10:24:43,918 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:24:43,918 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 10:27:08,773 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:27:08,773 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 10:27:08,774 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:27:08,774 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 10:27:45,343 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:27:45,343 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 10:27:45,343 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:27:45,343 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 10:27:48,233 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:27:48,233 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 10:27:48,233 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:27:48,233 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 10:27:55,901 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:27:55,901 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 10:27:55,902 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:27:55,902 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 10:28:49,716 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:28:49,716 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 10:28:49,717 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:28:49,717 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 10:30:30,653 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:30:30,653 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 10:30:30,654 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:30:30,654 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 10:30:47,890 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:30:47,890 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 10:30:47,891 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:30:47,891 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 10:31:22,731 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:31:22,731 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 10:31:22,732 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:31:22,732 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 10:31:28,061 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:31:28,061 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 10:31:28,062 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:31:28,062 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 10:32:45,109 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:32:45,109 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 10:32:45,110 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:32:45,110 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 10:32:59,619 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:32:59,619 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 10:32:59,620 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:32:59,620 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 10:38:24,858 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:38:24,858 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 10:38:24,858 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:38:24,858 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 10:38:39,189 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:38:39,190 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 10:38:39,190 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:38:39,190 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 10:38:59,434 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:38:59,435 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 10:38:59,435 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:38:59,435 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 10:39:55,054 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:39:55,054 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 10:39:55,054 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:39:55,054 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 10:40:29,211 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:40:29,211 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 10:40:29,212 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:40:29,212 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 10:41:24,116 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:41:24,116 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 10:41:24,117 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:41:24,117 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 10:41:33,340 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:41:33,341 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 10:41:33,341 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:41:33,341 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 10:42:15,089 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:42:15,089 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 10:42:15,089 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:42:15,089 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 10:44:05,386 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:44:05,386 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 10:44:05,387 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:44:05,387 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 10:44:40,112 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:44:40,112 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 10:44:40,113 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:44:40,113 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 10:45:18,188 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:45:18,188 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 10:45:18,189 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:45:18,189 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 10:45:28,119 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:45:28,119 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 10:45:28,119 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:45:28,119 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 10:45:38,666 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:45:38,667 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 10:45:38,667 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:45:38,667 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 10:46:09,434 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:46:09,434 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 10:46:09,434 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:46:09,434 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 10:46:43,151 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:46:43,151 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 10:46:43,151 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:46:43,151 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 10:47:55,467 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:47:55,467 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 10:47:55,467 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:47:55,467 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 10:48:21,551 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:48:21,551 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 10:48:21,553 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:48:21,553 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 10:49:10,300 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:49:10,300 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 10:49:10,301 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:49:10,301 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 10:49:58,793 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:49:58,793 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 10:49:58,793 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:49:58,793 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 10:50:09,815 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:50:09,815 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 10:50:09,816 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:50:09,816 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 10:50:30,592 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:50:30,592 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 10:50:30,592 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:50:30,592 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 10:51:09,451 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:51:09,451 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 10:51:09,451 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:51:09,451 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 10:51:17,673 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:51:17,673 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 10:51:17,674 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:51:17,674 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 10:52:32,034 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:52:32,035 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 10:52:32,035 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:52:32,035 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 10:53:29,430 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:53:29,431 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 10:53:29,431 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:53:29,431 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 10:53:52,342 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:53:52,343 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 10:53:52,343 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:53:52,343 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 10:54:19,427 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:54:19,427 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 10:54:19,428 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:54:19,428 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 10:54:37,426 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:54:37,426 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 10:54:37,427 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:54:37,427 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 10:55:04,539 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:55:04,539 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 10:55:04,540 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:55:04,540 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 10:55:06,690 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:55:06,690 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 10:55:06,690 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:55:06,690 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 10:55:18,136 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:55:18,136 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 10:55:18,136 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:55:18,136 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 10:56:07,392 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:56:07,392 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 10:56:07,392 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:56:07,392 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 10:57:22,142 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:57:22,142 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 10:57:22,143 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:57:22,143 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 10:57:49,675 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:57:49,675 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 10:57:49,675 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:57:49,675 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 10:57:57,205 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:57:57,205 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 10:57:57,206 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:57:57,206 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 10:58:00,267 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:58:00,267 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 10:58:00,268 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:58:00,268 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 10:58:24,348 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:58:24,348 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 10:58:24,348 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:58:24,348 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 10:59:48,240 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:59:48,240 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 10:59:48,241 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 10:59:48,241 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 11:00:42,952 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:00:42,952 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 11:00:42,953 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:00:42,953 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 11:01:08,555 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:01:08,556 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 11:01:08,556 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:01:08,556 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 11:01:15,224 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:01:15,224 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 11:01:15,224 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:01:15,224 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 11:01:50,542 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:01:50,542 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 11:01:50,542 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:01:50,542 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 11:01:55,365 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:01:55,365 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 11:01:55,366 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:01:55,366 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 11:02:08,057 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:02:08,057 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 11:02:08,058 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:02:08,058 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 11:03:29,099 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:03:29,099 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 11:03:29,099 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:03:29,099 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 11:04:05,575 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:04:05,575 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 11:04:05,576 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:04:05,576 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 11:04:47,440 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:04:47,440 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 11:04:47,440 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:04:47,440 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 11:05:20,512 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:05:20,512 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 11:05:20,513 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:05:20,513 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 11:05:24,945 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:05:24,945 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 11:05:24,946 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:05:24,946 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 11:05:47,839 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:05:47,839 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 11:05:47,839 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:05:47,839 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 11:06:36,794 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:06:36,794 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 11:06:36,795 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:06:36,795 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 11:06:51,700 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:06:51,700 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 11:06:51,701 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:06:51,701 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 11:07:10,094 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:07:10,094 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 11:07:10,095 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:07:10,095 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 11:07:22,168 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:07:22,168 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 11:07:22,168 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:07:22,168 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 11:07:36,413 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:07:36,413 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 11:07:36,414 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:07:36,414 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 11:08:26,252 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:08:26,252 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 11:08:26,253 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:08:26,253 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 11:09:06,689 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:09:06,690 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 11:09:06,690 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:09:06,690 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 11:09:23,651 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:09:23,651 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 11:09:23,652 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:09:23,652 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 11:09:45,245 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:09:45,245 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 11:09:45,245 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:09:45,246 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 11:10:07,475 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:10:07,475 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 11:10:07,475 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:10:07,475 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 11:13:00,531 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:13:00,531 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 11:13:00,532 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:13:00,532 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 11:13:45,541 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:13:45,542 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 11:13:45,542 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:13:45,542 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 11:14:21,256 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:14:21,257 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 11:14:21,257 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:14:21,257 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 11:20:28,385 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:20:28,385 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 11:20:28,385 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:20:28,385 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 11:21:32,983 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:21:32,983 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 11:21:32,984 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:21:32,984 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 11:22:53,008 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:22:53,008 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 11:22:53,009 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:22:53,009 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 11:24:04,263 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:24:04,263 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 11:24:04,264 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:24:04,264 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 11:24:12,847 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:24:12,847 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 11:24:12,847 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:24:12,847 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 11:24:46,222 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:24:46,223 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 11:24:46,224 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:24:46,224 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 11:25:05,549 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:25:05,549 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 11:25:05,549 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:25:05,550 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 11:25:29,608 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:25:29,609 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 11:25:29,615 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:25:29,615 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 11:26:32,839 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:26:32,839 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 11:26:32,839 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:26:32,839 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 11:26:57,888 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:26:57,888 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 11:26:57,888 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:26:57,889 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 11:27:02,342 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:27:02,342 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 11:27:02,342 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:27:02,342 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 11:27:34,408 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:27:34,408 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 11:27:34,409 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:27:34,409 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 11:27:56,799 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:27:56,800 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 11:27:56,800 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:27:56,800 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 11:28:04,031 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:28:04,032 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 11:28:04,032 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:28:04,032 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 11:28:47,953 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:28:47,953 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 11:28:47,954 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:28:47,954 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 11:29:07,149 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:29:07,149 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 11:29:07,149 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:29:07,150 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 11:29:28,336 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:29:28,336 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 11:29:28,337 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:29:28,337 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 11:29:50,709 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:29:50,710 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 11:29:50,711 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:29:50,711 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 11:31:31,431 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:31:31,431 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 11:31:31,432 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:31:31,432 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 11:32:46,554 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:32:46,554 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 11:32:46,554 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:32:46,554 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 11:33:15,685 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:33:15,685 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 11:33:15,685 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:33:15,686 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 11:36:27,500 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:36:27,500 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 11:36:27,500 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:36:27,500 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 11:37:31,323 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:37:31,323 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 11:37:31,323 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:37:31,323 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 11:37:36,933 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:37:36,933 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 11:37:36,933 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:37:36,933 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 11:37:41,927 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:37:41,927 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 11:37:41,928 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:37:41,928 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 11:38:27,375 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:38:27,375 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 11:38:27,376 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:38:27,376 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 11:38:30,158 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:38:30,158 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 11:38:30,159 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:38:30,159 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 11:42:25,113 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:42:25,113 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 11:42:25,114 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:42:25,114 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 11:42:35,145 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:42:35,145 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 11:42:35,145 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:42:35,145 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 11:42:39,289 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:42:39,289 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 11:42:39,289 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:42:39,289 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 11:42:56,370 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:42:56,370 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 11:42:56,371 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:42:56,371 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 11:45:03,404 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:45:03,404 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 11:45:03,404 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:45:03,404 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 11:45:05,607 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:45:05,607 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 11:45:05,607 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:45:05,607 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 11:45:42,137 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:45:42,137 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 11:45:42,138 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:45:42,138 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 11:45:49,687 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:45:49,687 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 11:45:49,687 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:45:49,688 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 11:48:53,927 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:48:53,927 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 11:48:53,927 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:48:53,927 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 11:48:56,604 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:48:56,604 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 11:48:56,604 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:48:56,604 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 11:49:07,380 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:49:07,380 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 11:49:07,380 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:49:07,380 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 11:49:20,264 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:49:20,264 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 11:49:20,265 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:49:20,265 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 11:49:31,306 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:49:31,306 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 11:49:31,306 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:49:31,306 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 11:50:05,530 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:50:05,530 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 11:50:05,530 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:50:05,530 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 11:50:10,191 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:50:10,191 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 11:50:10,191 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:50:10,191 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 11:50:16,171 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:50:16,171 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 11:50:16,172 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:50:16,172 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 11:50:39,179 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:50:39,179 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 11:50:39,179 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:50:39,179 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 11:53:10,612 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:53:10,612 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 11:53:10,613 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:53:10,613 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 11:53:14,605 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:53:14,605 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 11:53:14,606 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:53:14,606 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 11:53:41,234 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:53:41,234 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 11:53:41,234 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:53:41,234 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 11:53:45,228 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:53:45,228 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 11:53:45,228 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:53:45,229 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 11:56:10,250 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:56:10,250 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 11:56:10,250 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:56:10,250 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 11:56:42,798 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:56:42,799 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 11:56:42,799 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:56:42,799 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 11:56:49,235 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:56:49,235 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 11:56:49,236 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:56:49,236 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 11:58:03,959 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:58:03,959 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 11:58:03,959 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 11:58:03,959 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 12:08:30,186 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 12:08:30,186 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 12:08:30,187 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 12:08:30,187 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 12:09:16,476 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 12:09:16,476 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 12:09:16,477 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 12:09:16,477 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 12:09:33,747 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 12:09:33,747 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 12:09:33,748 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 12:09:33,748 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 12:23:59,421 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 12:23:59,422 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 12:23:59,422 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 12:23:59,422 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 12:24:23,527 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 12:24:23,527 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 12:24:23,528 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 12:24:23,528 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 12:25:23,210 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 12:25:23,210 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 12:25:23,211 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 12:25:23,211 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 12:26:10,264 [Worker-104: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 12:26:10,264 [Worker-104: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 12:26:10,264 [Worker-104: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 12:26:10,264 [Worker-104: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 12:26:27,753 [Worker-102: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 12:26:27,753 [Worker-102: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 12:26:27,754 [Worker-102: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 12:26:27,754 [Worker-102: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 12:26:28,782 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 12:26:28,782 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 12:26:28,782 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 12:26:28,783 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 12:27:00,399 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 12:27:00,399 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 12:27:00,400 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 12:27:00,400 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 12:30:35,965 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 12:30:35,969 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 12:30:35,971 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 12:30:35,971 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 12:30:38,452 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 12:30:38,452 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 12:30:38,453 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 12:30:38,453 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 12:30:55,249 [Worker-15: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-06-01 12:33:21,929 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 12:33:21,930 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 12:33:21,930 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 12:33:21,930 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 12:34:18,754 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 12:34:18,754 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 12:34:18,755 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 12:34:18,755 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 12:34:25,950 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 12:34:25,950 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 12:34:25,951 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 12:34:25,951 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 12:35:29,497 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 12:35:29,497 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 12:35:29,498 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 12:35:29,498 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 12:35:52,295 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 12:35:52,295 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 12:35:52,295 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 12:35:52,295 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 12:44:31,565 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 12:44:31,565 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 12:44:31,565 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 12:44:31,565 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 12:45:46,522 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 12:45:46,522 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 12:45:46,522 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 12:45:46,522 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 12:47:22,195 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 12:47:22,195 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 12:47:22,196 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 12:47:22,196 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 12:48:38,380 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 12:48:38,381 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 12:48:38,381 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 12:48:38,381 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 12:48:46,430 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 12:48:46,430 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 12:48:46,431 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 12:48:46,431 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 12:50:35,458 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 12:50:35,458 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 12:50:35,459 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 12:50:35,459 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 12:51:09,628 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 12:51:09,628 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 12:51:09,628 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 12:51:09,628 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 12:53:06,379 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 12:53:06,379 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 12:53:06,380 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 12:53:06,380 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 12:53:40,466 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 12:53:40,466 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 12:53:40,467 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 12:53:40,467 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 12:53:45,646 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 12:53:45,646 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 12:53:45,646 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 12:53:45,646 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 12:53:49,488 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 12:53:49,488 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 12:53:49,489 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 12:53:49,489 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 12:53:53,292 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 12:53:53,293 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 12:53:53,293 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 12:53:53,293 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 12:54:15,705 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 12:54:15,706 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 12:54:15,706 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 12:54:15,706 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources
+2022-06-01 12:54:29,306 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 12:54:29,306 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\main\resources
+2022-06-01 12:54:29,307 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-01 12:54:29,307 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\amirs\eclipse-workplaces\InventoryProject\api-demo\src\test\resources

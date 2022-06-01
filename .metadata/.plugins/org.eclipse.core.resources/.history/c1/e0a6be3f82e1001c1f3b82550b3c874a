@@ -1,0 +1,5 @@
+package inventory.TcpServer;
+
+public class ServerRunner {
+	InventoryServer server = new InventoryServer();
+}

@@ -1,0 +1,176 @@
+package inventory.TcpServer;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.PrintWriter;
+import java.net.ServerSocket;
+import java.net.Socket;
+import java.util.List;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.TimeUnit;
+
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+
+import inventory.DBservice.MockDBService;
+import inventory.models.Device;
+import inventory.models.IOTThing;
+
+public class InventoryServer {
+	private static final int PORT = 8090;
+	protected ServerSocket serverSocket;
+	protected Socket clientSocket;
+	protected boolean serverActive;
+	
+	protected ExecutorService executorService;
+	
+	public InventoryServer() {
+		this.serverSocket = null;
+		this.clientSocket = null;
+		executorService = Executors.newCachedThreadPool();
+		serverActive = true;
+	}
+	
+	public void startServer() {
+		try (ServerSocket serverSocket = new ServerSocket(PORT);){
+			this.serverSocket = serverSocket;
+			
+			System.out.println("Inventory TCP server waiting for connections on port " + PORT);
+			while(serverActive) {
+				clientSocket = serverSocket.accept();
+				executorService.execute(new InventorySession(clientSocket));
+			}
+			
+		}catch (IOException e) {
+			System.err.println("Failed to start server");
+			System.out.println(e);
+		}finally {
+			executorService.shutdown();
+			try {
+				executorService.awaitTermination(5, TimeUnit.SECONDS);
+			} catch (InterruptedException e) {
+				System.out.println("Cant shutddown executor");
+				e.printStackTrace();
+			}
+		}	
+	}
+	
+	protected class InventorySession implements Runnable {
+
+		private final static long SESSION_SLEEP_TIME = 10000;
+		
+		protected Socket clientSocket;
+		protected BufferedReader reader;
+//		protected PrintWriter writer;
+		
+		protected IOTThing iot;
+		protected List<Device> deviceList;
+		
+		String reportString;
+		
+		GsonBuilder gsonBuilder;
+		Gson gson;
+		
+		MockDBService db;
+		
+		protected boolean sessionActive;
+		
+		public InventorySession(Socket clientSocket) {
+			this.clientSocket = clientSocket;
+			gsonBuilder = new GsonBuilder().setPrettyPrinting();
+			gson = gsonBuilder.create();
+			db = new MockDBService();
+			sessionActive = true;
+		}
+
+		@Override
+		public void run() {
+			System.out.println("Started inventory session " + Thread.currentThread().getName());
+			
+			try ( BufferedReader reader = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()))) {
+				
+				this.reader = reader;
+								
+				System.out.println(
+						"Client is connected " + clientSocket.getInetAddress() + " port " + clientSocket.getPort());
+				
+				while (sessionActive) {
+					String reportString = new String();
+					do {
+						reportString += = reader.readLine();
+					}
+					System.out.println("Client sent: " + reportString);
+					
+					processReport(reportString);
+					updateDB();	
+					
+					sleep(SESSION_SLEEP_TIME);
+				}				
+				
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+			
+			closeAllConnections();
+			System.out.println(Thread.currentThread().getName() + " connection closed");
+		}
+		
+		public void processReport(String report) {
+			if (report == null)
+				return;
+			
+			iot = gson.fromJson(report, IOTThing.class);
+			
+			System.out.println("built IOT" + iot);
+			
+			deviceList = iot.getDevices();
+					
+		}
+		
+		protected synchronized void updateDB() {
+			if (iot!=null) 
+				db.addIotToDB(iot);
+
+			if (deviceList!=null && !deviceList.isEmpty()) {
+				deviceList.forEach(device->db.addDeviceToDB(device));
+			}
+
+		}
+
+		
+		protected void closeAllConnections() {
+			//if (writer!=null)
+				//writer.close();
+			
+			if (reader!=null)
+				try {
+					reader.close();
+				} catch (IOException e) {
+					System.out.println("cant close reader");
+					e.printStackTrace();
+				}
+			
+			if (clientSocket!=null) {
+				try {
+					clientSocket.close();
+				} catch (IOException e) {
+					System.out.println("Cant close clientSocket");
+					e.printStackTrace();
+				}
+			}	
+		}
+		
+		protected void sleep(long milis) {
+			try {
+				Thread.sleep(milis);
+			} catch (InterruptedException e) {
+				System.out.println("Thread sleep interrupted");
+				e.printStackTrace();
+			}
+		}
+		
+	}// </InventorySession CLASS>
+	
+}

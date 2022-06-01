@@ -1,23 +1,44 @@
 {
-  "96e98128-70fb-432d-8135-ae7c330da120": {
+  "f7dce26a-013b-4f97-a900-884fc3691d68": {
     "reading": 0.0,
-    "uuid": "96e98128-70fb-432d-8135-ae7c330da120",
-    "type": "ACTUATOR",
-    "model": "Act-01",
-    "manufacturer": "SolarEdge"
-  },
-  "bf4bc2b9-18ef-4ac3-9925-03c431d77082": {
-    "reading": 0.0,
-    "uuid": "bf4bc2b9-18ef-4ac3-9925-03c431d77082",
+    "uuid": "f7dce26a-013b-4f97-a900-884fc3691d68",
     "type": "CONTROLLER",
     "model": "Cont-01",
     "manufacturer": "Samsung"
   },
-  "dd01abee-c3b7-4b31-bd4d-502d59fbb87f": {
+  "ad8af192-e49e-42fb-bdbf-7bd2d013d9d5": {
     "reading": 0.0,
-    "uuid": "dd01abee-c3b7-4b31-bd4d-502d59fbb87f",
+    "uuid": "ad8af192-e49e-42fb-bdbf-7bd2d013d9d5",
+    "type": "ACTUATOR",
+    "model": "Act-01",
+    "manufacturer": "SolarEdge"
+  },
+  "d9ecf309-0e3a-42b0-8d50-6790bbbc45ca": {
+    "reading": 10.0,
+    "uuid": "d9ecf309-0e3a-42b0-8d50-6790bbbc45ca",
+    "type": "SENSOR",
+    "model": "Sens-02",
+    "manufacturer": "AMD"
+  },
+  "538144c9-fe75-4e0b-9d5a-adf6f0db1a8b": {
+    "reading": 0.0,
+    "uuid": "538144c9-fe75-4e0b-9d5a-adf6f0db1a8b",
     "type": "SENSOR",
     "model": "Sens-01",
     "manufacturer": "AMD"
+  },
+  "5b441709-927d-4deb-bc34-6abe394564aa": {
+    "reading": 10.0,
+    "uuid": "5b441709-927d-4deb-bc34-6abe394564aa",
+    "type": "CONTROLLER",
+    "model": "Cont-02",
+    "manufacturer": "Samsung"
+  },
+  "99b69be5-b30c-4b30-a67e-bb72c08260ae": {
+    "reading": 10.0,
+    "uuid": "99b69be5-b30c-4b30-a67e-bb72c08260ae",
+    "type": "ACTUATOR",
+    "model": "Act-02",
+    "manufacturer": "SolarEdge"
   }
 }
