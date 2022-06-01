@@ -23,6 +23,10 @@ public class Device extends Hardware{
 		super(uuidString, type ,model,manufacturer);
 	}
 	
+	public Device(byte[] uuidBytes, HardwareType type, String model, String manufacturer) {
+		super(uuidBytes, type ,model,manufacturer);
+	}
+	
 	public Device(String uuidString, HardwareType type, String model, String manufacturer, double reading) {
 		super(uuidString, type ,model,manufacturer);
 		setReading(reading);

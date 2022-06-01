@@ -9,11 +9,11 @@ import Utils.GsonUtil;
 import inventory.DBservice.MockDBService;
 import inventory.models.Device;
 import inventory.models.HardwareType;
-import inventory.models.IOTThing;
+import inventory.models.IotThing;
 
 public class ClientRunner {
 	
-	static IOTThing thing1;
+	static IotThing thing1;
 	static InventoryReportClient inventoryClient;
 	static MockDBService db = new MockDBService();
 	
@@ -27,7 +27,7 @@ public class ClientRunner {
 		
 		List<Device> deviceList1 = Arrays.asList(device1, device2, device3);
 		
-		thing1 = new IOTThing(HardwareType.IOT, "Reporter-02", "SolarEdge");
+		thing1 = new IotThing(HardwareType.IOT, "Reporter-02", "SolarEdge");
 		thing1.setDevices(deviceList1);
 		
 //		GsonUtil.saveObjectToJsonFile(device1, "files/device1.json");

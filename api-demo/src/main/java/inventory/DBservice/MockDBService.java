@@ -11,13 +11,13 @@ import com.google.gson.GsonBuilder;
 
 import Utils.GsonUtil;
 import inventory.models.Device;
-import inventory.models.IOTThing;
+import inventory.models.IotThing;
 import mockDB.MockDB;
 
 public class MockDBService {
 	private MockDB db;
 	private Map<UUID, Device> deviceMap;
-	private Map<UUID, IOTThing> iotMap;
+	private Map<UUID, IotThing> iotMap;
 	
 	public MockDBService() {
 		db = MockDB.getInstance();
@@ -29,6 +29,43 @@ public class MockDBService {
 		return deviceMap;
 	}
 
+	public synchronized Device getDeviceByUuid(UUID Uuid) {
+		return deviceMap.get(Uuid);
+	}
+	
+	public synchronized Device getDeviceByUuid(String UuidString) {
+		return getDeviceByUuid(UUID.fromString(UuidString));
+	}
+	
+	public synchronized Device removeDeviceByUuid(UUID Uuid) {
+		return deviceMap.remove(Uuid);
+	}
+	
+	public synchronized Device removeDeviceByUuid(String UuidString) {
+		return removeDeviceByUuid(UUID.fromString(UuidString));
+	}
+	
+	public synchronized IotThing getIotByUuid(UUID Uuid) {
+		return iotMap.get(Uuid);
+	}
+	
+	public synchronized IotThing getIotByUuid(String UuidString) {
+		return getIotByUuid(UUID.fromString(UuidString));
+	}
+	
+	public synchronized IotThing removeIotByUuid(UUID Uuid) {
+		return iotMap.remove(Uuid);
+	}
+	
+	public synchronized IotThing removeIotByUuid(String UuidString) {
+		return removeIotByUuid(UUID.fromString(UuidString));
+	}
+	
+	/**
+	 * Adds device to DB
+	 * @param device
+	 * @return
+	 */
 	public synchronized Device addDeviceToDB(Device device) {
 		deviceMap.put(device.getUuid(), device);
 		return device;
@@ -39,7 +76,7 @@ public class MockDBService {
 	 * @param iot
 	 * @return IOTThing
 	 */
-	public synchronized IOTThing addIotToDB(IOTThing iot) {
+	public synchronized IotThing addIotToDB(IotThing iot) {
 		iotMap.put(iot.getUuid(), iot);		
 		return iot;
 	}

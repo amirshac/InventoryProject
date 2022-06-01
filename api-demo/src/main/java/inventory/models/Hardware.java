@@ -24,6 +24,13 @@ public class Hardware {
 		setManufacturer(manufacturer);
 	}
 	
+	public Hardware(byte[] uuidBytes, HardwareType type, String model, String manufacturer) {
+		setUuid(uuidBytes);
+		setType(type);
+		setModel(model);
+		setManufacturer(manufacturer);
+	}
+	
 	protected synchronized void generateUUID() {
 		setUuid(UUID.randomUUID());
 	}
@@ -34,6 +41,14 @@ public class Hardware {
 
 	public void setUuid(UUID uuid) {
 		this.uuid = uuid;
+	}
+	
+	public void setUuid(String str) {
+		this.uuid = UUID.fromString(str);
+	}
+	
+	public void setUuid(byte[] bytes) {
+		this.uuid = UUID.nameUUIDFromBytes(bytes);
 	}
 
 	public HardwareType getType() {

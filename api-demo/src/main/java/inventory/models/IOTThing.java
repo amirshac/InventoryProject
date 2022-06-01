@@ -6,19 +6,25 @@ import java.net.Socket;
 import java.util.ArrayList;
 import java.util.List;
 
-public class IOTThing extends Hardware{
+public class IotThing extends Hardware{
 	
 	
 	protected List<Device> devices;
 	
-	public IOTThing() {}
+	public IotThing() {}
 	
-	public IOTThing(HardwareType type, String model, String manufacturer) {
+	public IotThing(HardwareType type, String model, String manufacturer) {
 		super(type,model,manufacturer);
 		devices = new ArrayList<Device>();
 	}
-	public IOTThing(String uuidString, HardwareType type, String model, String manufacturer) {
+	
+	public IotThing(String uuidString, HardwareType type, String model, String manufacturer) {
 		super(uuidString, type ,model,manufacturer);
+		devices = new ArrayList<Device>();
+	}
+	
+	public IotThing(byte[] uuidBytes, HardwareType type, String model, String manufacturer) {
+		super(uuidBytes, type ,model,manufacturer);
 		devices = new ArrayList<Device>();
 	}
 	
@@ -44,9 +50,8 @@ public class IOTThing extends Hardware{
 		if (devices.isEmpty()) return null;
 		
 		return (devices.remove(devices.size()-1));
-	}
-		
-
+	}	
+	
 	@Override
 	public String toString() {
 		return super.toString() + "IOTThing [devices=" + devices + "]";

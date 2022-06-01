@@ -7,7 +7,7 @@ import java.net.Socket;
 import com.google.gson.Gson;
 
 import Utils.GsonUtil;
-import inventory.models.IOTThing;
+import inventory.models.IotThing;
 
 public class InventoryReportClient implements Runnable{
 	private static final long REPORT_SLEEP_DELAY = 10000;
@@ -17,20 +17,20 @@ public class InventoryReportClient implements Runnable{
 	protected Socket clientSocket;
 	protected PrintWriter writer;
 	
-	protected IOTThing iot;
+	protected IotThing iot;
 	protected boolean clientActive;
 	
 	protected Gson gson;
 	
 	public InventoryReportClient() {}
 	
-	public InventoryReportClient(IOTThing iot){
+	public InventoryReportClient(IotThing iot){
 		setIot(iot);
 		clientActive = true;
 		gson = new Gson();
 	}
 	
-	public void setIot(IOTThing iot) {
+	public void setIot(IotThing iot) {
 		this.iot = iot;
 	}
 	

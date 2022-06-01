@@ -16,7 +16,7 @@ import com.google.gson.GsonBuilder;
 
 import inventory.DBservice.MockDBService;
 import inventory.models.Device;
-import inventory.models.IOTThing;
+import inventory.models.IotThing;
 
 public class InventoryServer {
 	private static final int PORT = 9090;
@@ -65,7 +65,7 @@ public class InventoryServer {
 	//	protected BufferedReader reader;
 //		protected PrintWriter writer;
 		
-		protected IOTThing iot;
+		protected IotThing iot;
 		protected List<Device> deviceList;
 		
 		String reportString;
@@ -112,7 +112,7 @@ public class InventoryServer {
 			if (report == null)
 				return;
 			
-			iot = gson.fromJson(report, IOTThing.class);
+			iot = gson.fromJson(report, IotThing.class);
 			
 			System.out.println("built IOT\n" + iot);
 			
