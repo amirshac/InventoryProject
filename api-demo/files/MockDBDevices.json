@@ -13,27 +13,6 @@
     "model": "Act-01",
     "manufacturer": "SolarEdge"
   },
-  "53df4857-3ea7-3141-ac78-e3a48bf0b437": {
-    "reading": 10.0,
-    "uuid": "53df4857-3ea7-3141-ac78-e3a48bf0b437",
-    "type": "CONTROLLER",
-    "model": "Cont-02",
-    "manufacturer": "Samsung"
-  },
-  "b33622e4-8beb-3db0-8b37-a0498b39e8f9": {
-    "reading": 10.0,
-    "uuid": "b33622e4-8beb-3db0-8b37-a0498b39e8f9",
-    "type": "SENSOR",
-    "model": "Sens-02",
-    "manufacturer": "AMD"
-  },
-  "b7f86a38-be91-33c1-a4ae-ba52940975e8": {
-    "reading": 10.0,
-    "uuid": "b7f86a38-be91-33c1-a4ae-ba52940975e8",
-    "type": "ACTUATOR",
-    "model": "Act-02",
-    "manufacturer": "SolarEdge"
-  },
   "6d901ff5-7d17-358d-8100-ea0211571864": {
     "reading": 0.0,
     "uuid": "6d901ff5-7d17-358d-8100-ea0211571864",

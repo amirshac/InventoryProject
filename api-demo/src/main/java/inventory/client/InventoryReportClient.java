@@ -34,6 +34,10 @@ public class InventoryReportClient implements Runnable{
 		this.iot = iot;
 	}
 	
+	public IotThing getIot() {
+		return this.iot;
+	}
+	
 	public void connect() { 		
 		try {
 			clientSocket = new Socket(SERVER_NAME, SERVER_PORT);
@@ -67,15 +71,10 @@ public class InventoryReportClient implements Runnable{
 		writer.println(reportString);
 		System.out.println("Sent report\n" + reportString);
 
-		
-//		try {
-//			Thread.sleep(REPORT_SLEEP_DELAY);
-//		} catch (InterruptedException e) {
-//			// TODO Auto-generated catch block
-//			e.printStackTrace();
-//		}
 	}
-
+	
+	
+	
 	@Override
 	public void run() {
 		if (clientSocket==null)

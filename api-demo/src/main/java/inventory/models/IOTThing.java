@@ -42,7 +42,6 @@ public class IotThing extends Hardware{
 	
 	public Device removeDevice(int index) {
 		if (index<0 || index > devices.size() ) return null;
-		
 		return(devices.remove(index));
 	}
 	
@@ -51,6 +50,10 @@ public class IotThing extends Hardware{
 		
 		return (devices.remove(devices.size()-1));
 	}	
+	
+	public void clearDevices() {
+		devices.clear();
+	}
 	
 	@Override
 	public String toString() {

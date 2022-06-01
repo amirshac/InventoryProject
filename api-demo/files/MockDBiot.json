@@ -1,28 +1,6 @@
 {
   "0efc63d8-9b2a-35c1-9569-97d0cbf0db1a": {
-    "devices": [
-      {
-        "reading": 10.0,
-        "uuid": "b7f86a38-be91-33c1-a4ae-ba52940975e8",
-        "type": "ACTUATOR",
-        "model": "Act-02",
-        "manufacturer": "SolarEdge"
-      },
-      {
-        "reading": 10.0,
-        "uuid": "53df4857-3ea7-3141-ac78-e3a48bf0b437",
-        "type": "CONTROLLER",
-        "model": "Cont-02",
-        "manufacturer": "Samsung"
-      },
-      {
-        "reading": 10.0,
-        "uuid": "b33622e4-8beb-3db0-8b37-a0498b39e8f9",
-        "type": "SENSOR",
-        "model": "Sens-02",
-        "manufacturer": "AMD"
-      }
-    ],
+    "devices": [],
     "uuid": "0efc63d8-9b2a-35c1-9569-97d0cbf0db1a",
     "type": "IOT",
     "model": "Reporter-02",

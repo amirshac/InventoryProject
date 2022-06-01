@@ -60,15 +60,12 @@ public class InventoryServer {
 	}
 	
 	protected class InventorySession implements Runnable {
-
-		//private final static long SESSION_SLEEP_TIME = 10000;
 		
 		protected Socket clientSocket;
-	//	protected BufferedReader reader;
-//		protected PrintWriter writer;
+
 		
-		protected IotThing iot;
-		protected List<Device> deviceList;
+		volatile protected IotThing iot;
+		volatile protected List<Device> deviceList;
 		
 		String reportString;
 		
@@ -77,14 +74,12 @@ public class InventoryServer {
 		
 		MockDBService db;
 		
-		//protected boolean sessionActive;
 		
 		public InventorySession(Socket clientSocket) {
 			this.clientSocket = clientSocket;
 			gsonBuilder = new GsonBuilder().setPrettyPrinting();
 			gson = gsonBuilder.create();
 			db = new MockDBService();
-			//sessionActive = true;
 		}
 
 		@Override
@@ -115,11 +110,8 @@ public class InventoryServer {
 				return;
 			
 			iot = gson.fromJson(report, IotThing.class);
-			
-			System.out.println("built IOT\n" + iot);
-			
-			deviceList = iot.getDevices();
-					
+						
+			deviceList = iot.getDevices();					
 		}
 		
 		protected synchronized void updateDB() {
@@ -127,11 +119,9 @@ public class InventoryServer {
 			if (iot==null) return;
 
 			IotThing dbIot = db.getIotByUuid(iot.getUuid());
-			System.out.println("dbiot:" + dbIot);
 			
 			// Compare current device list in DB against the new list report, then remove the missing 'dropped' devices, before adding new devices to database
 			List<Device> deviceListInDB = db.getIotDevicesByIotUuid(iot.getUuid());
-			System.out.println("list in db " +deviceListInDB);
 			
 			if (deviceListInDB!=null) {
 				List<UUID> uuidsInDB = deviceListInDB.stream().map(p->p.getUuid()).toList();
@@ -141,7 +131,6 @@ public class InventoryServer {
 				System.out.println("in db " + uuidsInDB);
 				System.out.println("in report " + uuidsInReport);
 				System.out.println("to remove " + uuidsToRemove);
-			
 			
 				if (!uuidsToRemove.isEmpty()){
 					uuidsToRemove.forEach(item->db.removeDeviceByUuid(item));	
