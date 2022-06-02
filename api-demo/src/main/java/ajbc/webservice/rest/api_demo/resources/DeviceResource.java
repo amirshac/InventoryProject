@@ -7,6 +7,7 @@ import java.util.UUID;
 import java.util.stream.Collectors;
 
 import ajbc.webservice.rest.api_demo.beans.DeviceFilterBean;
+import ajbc.webservice.rest.api_demo.exceptions.MissingDataException;
 import inventory.DBservice.MockDBService;
 import inventory.models.Device;
 import jakarta.ws.rs.Path;
@@ -39,7 +40,7 @@ public class DeviceResource {
 		if (deviceFilter.getId() != null){
 			Device device = db.getDeviceByUuid(UUID.fromString(deviceFilter.getId()));
 			if (device == null) {
-				// TODO: handle exception
+				throw new MissingDataException("Device ID not found");
 			}else {
 				return Response.ok().entity(device).build();
 			}
@@ -47,16 +48,28 @@ public class DeviceResource {
 		
 		if (deviceFilter.getType()!=null) {
 			returnList = db.getDeviceByType(deviceFilter.getType());
+			
+			if (returnList.isEmpty()) 
+				throw new MissingDataException("No devices found with type " + deviceFilter.getType());
+		
 			return Response.ok().entity(returnList).build();
 		}
 		
 		if (deviceFilter.getManufacturer()!=null) {
 			returnList = db.getDeviceByManufacturer(deviceFilter.getManufacturer());
+			
+			if (returnList.isEmpty()) 
+				throw new MissingDataException("No devices found by manufacturer " + deviceFilter.getManufacturer());
+			
 			return Response.ok().entity(returnList).build();
 		}
 		
 		if (deviceFilter.getModel()!=null) {
 			returnList = db.getDeviceByModel(deviceFilter.getModel());
+			
+			if (returnList.isEmpty()) 
+				throw new MissingDataException("No devices found by model " + deviceFilter.getModel());
+			
 			return Response.ok().entity(returnList).build();
 		}
 		
