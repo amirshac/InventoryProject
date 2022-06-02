@@ -30,6 +30,7 @@ public class DeviceResource {
 		
 		List<Device> returnList = new ArrayList<Device>();
 		
+		// empty filters means we return all devices
 		if (deviceFilter.getId() == null && deviceFilter.getType() == null && deviceFilter.getManufacturer() == null && deviceFilter.getModel() == null) {
 			returnList = db.getAllDevices();
 			return Response.ok().entity(returnList).build();

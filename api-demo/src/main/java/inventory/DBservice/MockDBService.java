@@ -31,9 +31,9 @@ public class MockDBService {
 //		return deviceMap;
 //	}
 	
-	public Map<UUID, IotThing> getAllIots(){
-		return iotMap;
-	}
+//	public Map<UUID, IotThing> getAllIots(){
+//		return iotMap;
+//	}
 
 	public synchronized Device getDeviceByUuid(UUID Uuid) {
 		return deviceMap.get(Uuid);
@@ -91,6 +91,28 @@ public class MockDBService {
 	
 	public List<Device> getDeviceByModel(String model){
 		return deviceMap.values().stream()
+				.filter( device->device.getModel().toUpperCase().equals(model.toUpperCase()) )
+				.collect(Collectors.toList());
+	}
+	
+	public List<IotThing> getAllIots(){
+		return iotMap.values().stream().collect(Collectors.toList());
+	}
+	
+	public List<IotThing> getIotByType(String type){
+		return iotMap.values().stream()
+				.filter(device->device.getType().toString().equals(type.toUpperCase()))
+				.collect(Collectors.toList());
+	}
+	
+	public List<IotThing> getIotByManufacturer(String manufacturer){
+		return iotMap.values().stream()
+				.filter(device->device.getManufacturer().toUpperCase().equals(manufacturer.toUpperCase()))
+				.collect(Collectors.toList());
+	}
+	
+	public List<IotThing> getIotByModel(String model){
+		return iotMap.values().stream()
 				.filter( device->device.getModel().toUpperCase().equals(model.toUpperCase()) )
 				.collect(Collectors.toList());
 	}
