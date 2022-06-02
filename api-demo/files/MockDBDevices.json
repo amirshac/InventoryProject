@@ -6,6 +6,27 @@
     "model": "Cont-01",
     "manufacturer": "Samsung"
   },
+  "c57f7aba-bb03-37eb-9233-4994aa3235e9": {
+    "reading": 0.0,
+    "uuid": "c57f7aba-bb03-37eb-9233-4994aa3235e9",
+    "type": "ACTUATOR",
+    "model": "Act-01",
+    "manufacturer": "SolarEdge"
+  },
+  "1af7bc49-e97f-3b42-b8a3-92d1e7b04823": {
+    "reading": 0.0,
+    "uuid": "1af7bc49-e97f-3b42-b8a3-92d1e7b04823",
+    "type": "SENSOR",
+    "model": "Sens-01",
+    "manufacturer": "AMD"
+  },
+  "723e0b76-a243-34b3-8729-68d882038368": {
+    "reading": 0.0,
+    "uuid": "723e0b76-a243-34b3-8729-68d882038368",
+    "type": "SOLARPANEL",
+    "model": "Panel-01",
+    "manufacturer": "SolarEdge"
+  },
   "d384a947-daa0-30f3-9257-1d6b0039dd30": {
     "reading": 0.0,
     "uuid": "d384a947-daa0-30f3-9257-1d6b0039dd30",
@@ -13,11 +34,53 @@
     "model": "Act-01",
     "manufacturer": "SolarEdge"
   },
+  "94f99113-0444-3ddd-b803-00986d523c5f": {
+    "reading": 0.0,
+    "uuid": "94f99113-0444-3ddd-b803-00986d523c5f",
+    "type": "ACTUATOR",
+    "model": "Act-01",
+    "manufacturer": "SolarEdge"
+  },
+  "dde7a455-43ed-3610-855b-53bd96aca352": {
+    "reading": 0.0,
+    "uuid": "dde7a455-43ed-3610-855b-53bd96aca352",
+    "type": "SENSOR",
+    "model": "Sens-01",
+    "manufacturer": "AMD"
+  },
+  "a45a91ea-e6ee-3e97-90f6-43c29abdcc7d": {
+    "reading": 0.0,
+    "uuid": "a45a91ea-e6ee-3e97-90f6-43c29abdcc7d",
+    "type": "CONTROLLER",
+    "model": "Cont-01",
+    "manufacturer": "Samsung"
+  },
   "6d901ff5-7d17-358d-8100-ea0211571864": {
     "reading": 0.0,
     "uuid": "6d901ff5-7d17-358d-8100-ea0211571864",
     "type": "SENSOR",
     "model": "Sens-01",
     "manufacturer": "AMD"
+  },
+  "cde597c2-126f-365f-93bf-c7e37954a691": {
+    "reading": 0.0,
+    "uuid": "cde597c2-126f-365f-93bf-c7e37954a691",
+    "type": "SOLARPANEL",
+    "model": "Panel-01",
+    "manufacturer": "SolarEdge"
+  },
+  "c9b64fdb-9e1c-3af1-a2b5-013fffeba45f": {
+    "reading": 0.0,
+    "uuid": "c9b64fdb-9e1c-3af1-a2b5-013fffeba45f",
+    "type": "CONTROLLER",
+    "model": "Cont-01",
+    "manufacturer": "Samsung"
+  },
+  "51e3da50-d40e-3ccf-97e7-a4eb27ae17af": {
+    "reading": 0.0,
+    "uuid": "51e3da50-d40e-3ccf-97e7-a4eb27ae17af",
+    "type": "SOLARPANEL",
+    "model": "Panel-01",
+    "manufacturer": "SolarEdge"
   }
 }

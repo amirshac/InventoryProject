@@ -1,0 +1,34 @@
+package inventory.resources;
+
+import java.util.List;
+import java.util.Map;
+import java.util.UUID;
+
+import ajbc.webservice.rest.api_demo.beans.DeviceFilterBean;
+import inventory.DBservice.MockDBService;
+import inventory.models.Device;
+import jakarta.ws.rs.BeanParam;
+import jakarta.ws.rs.Consumes;
+import jakarta.ws.rs.GET;
+import jakarta.ws.rs.Path;
+import jakarta.ws.rs.Produces;
+import jakarta.ws.rs.core.MediaType;
+
+
+@Path("devices")
+@Produces(MediaType.APPLICATION_JSON)
+
+public class DeviceResource {
+	MockDBService dbService = new MockDBService();
+
+	@GET
+	public List<Device> getDevices(@BeanParam DeviceFilterBean deviceFilter){
+		System.out.println(deviceFilter.getId());
+		return null;
+	}
+	
+//	@GET
+//	public Map<UUID, Device> getAllDevices(){
+//		return dbService.getAllDevices();
+//	}
+}

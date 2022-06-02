@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.util.List;
 import java.util.Map;
 import java.util.UUID;
+import java.util.stream.Collectors;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -16,17 +17,22 @@ import mockDB.MockDB;
 
 public class MockDBService {
 	private MockDB db;
-	private Map<UUID, Device> deviceMap;
-	private Map<UUID, IotThing> iotMap;
+	private volatile Map<UUID, Device> deviceMap;
+	private volatile Map<UUID, IotThing> iotMap;
 	
 	public MockDBService() {
 		db = MockDB.getInstance();
 		deviceMap = db.getDeviceMap();
-		iotMap = db.getIOTMap();
+		iotMap = db.getIotMap();
+	//	saveToFile();
 	}
 	
-	public Map<UUID, Device> getAllDevices(){
-		return deviceMap;
+//	public Map<UUID, Device> getAllDevices(){
+//		return deviceMap;
+//	}
+	
+	public Map<UUID, IotThing> getAllIots(){
+		return iotMap;
 	}
 
 	public synchronized Device getDeviceByUuid(UUID Uuid) {
@@ -38,7 +44,7 @@ public class MockDBService {
 	}
 	
 	public synchronized Device removeDeviceByUuid(UUID Uuid) {
-		return deviceMap.remove(Uuid);
+		return db.getDeviceMap().remove(Uuid);
 	}
 	
 	public synchronized Device removeDeviceByUuid(String UuidString) {
@@ -53,8 +59,8 @@ public class MockDBService {
 		return getIotByUuid(UUID.fromString(UuidString));
 	}
 	
-	public synchronized IotThing removeIotByUuid(UUID Uuid) {
-		return iotMap.remove(Uuid);
+	public synchronized IotThing removeIotByUuid(UUID Uuid){
+		return db.getIotMap().remove(Uuid);
 	}
 	
 	public synchronized IotThing removeIotByUuid(String UuidString) {
@@ -67,13 +73,36 @@ public class MockDBService {
 		return iot.getDevices();
 	}
 	
+	public List<Device> getAllDevices(){
+		return deviceMap.values().stream().collect(Collectors.toList());
+	}
+	
+	public List<Device> getDeviceByType(String type){
+		return deviceMap.values().stream()
+				.filter(device->device.getType().toString().equals(type.toUpperCase()))
+				.collect(Collectors.toList());
+	}
+	
+	public List<Device> getDeviceByManufacturer(String manufacturer){
+		return deviceMap.values().stream()
+				.filter(device->device.getManufacturer().toUpperCase().equals(manufacturer.toUpperCase()))
+				.collect(Collectors.toList());
+	}
+	
+	public List<Device> getDeviceByModel(String model){
+		return deviceMap.values().stream()
+				.filter( device->device.getModel().toUpperCase().equals(model.toUpperCase()) )
+				.collect(Collectors.toList());
+	}
+	
 	/**
 	 * Adds device to DB
 	 * @param device
 	 * @return
 	 */
 	public synchronized Device addDeviceToDB(Device device) {
-		deviceMap.put(device.getUuid(), device);
+		db.getDeviceMap().put(device.getUuid(), device);
+		
 		return device;
 	}
 	
@@ -83,7 +112,7 @@ public class MockDBService {
 	 * @return IOTThing
 	 */
 	public synchronized IotThing addIotToDB(IotThing iot) {
-		iotMap.put(iot.getUuid(), iot);		
+		db.getIotMap().put(iot.getUuid(), iot);		
 		return iot;
 	}
 	

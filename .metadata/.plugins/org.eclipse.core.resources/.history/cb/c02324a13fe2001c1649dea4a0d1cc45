@@ -1,0 +1,35 @@
+package ajbc.webservice.rest.api_demo.resources;
+
+import java.util.List;
+import java.util.Map;
+import java.util.UUID;
+import java.util.stream.Collectors;
+
+import inventory.DBservice.MockDBService;
+import inventory.models.Device;
+import jakarta.ws.rs.Path;
+import jakarta.ws.rs.Produces;
+import jakarta.ws.rs.core.MediaType;
+import jakarta.ws.rs.GET;
+
+
+@Path("devices")
+@Produces(MediaType.APPLICATION_JSON)
+
+public class DeviceResource {
+	MockDBService db = new MockDBService();
+	
+	@GET
+	public List<Device> getAllDevices(){
+		List<Device> deviceList = db.getAllDevices().values().stream().collect(Collectors.toList());
+		return deviceList;
+	}
+	
+	@GET
+	@Path("/{id}")
+	public Device getDeviceByID(@PathParam("id") String id) {
+		Device device = db.getDeviceByUuid(id);
+		return device;
+	}
+	
+}

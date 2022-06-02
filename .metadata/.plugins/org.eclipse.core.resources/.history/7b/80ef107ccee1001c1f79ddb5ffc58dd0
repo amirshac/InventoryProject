@@ -1,0 +1,15 @@
+package ajbc.webservice.rest.api_demo.beans;
+
+import jakarta.ws.rs.QueryParam;
+
+public class DeviceFilterBean {
+	@QueryParam("average") double average;
+	@QueryParam("minAverage") double minAverage;
+	@QueryParam("minAverage") double maxAverage;
+	
+	public DeviceFilterBean() {
+		
+	}
+	
+	
+}

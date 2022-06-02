@@ -1,0 +1,16 @@
+package ajbc.webservice.rest.api_demo.beans;
+
+import jakarta.ws.rs.QueryParam;
+
+public class DeviceFilterBean {
+	@QueryParam("id") String id;
+	@QueryParam("type") String type;
+	@QueryParam("model") String model;
+	@QueryParam("manufacturer") String manufacturer;
+	
+	public DeviceFilterBean() {
+		
+	}
+	
+	
+}

@@ -4,8 +4,9 @@
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="writer.prin"/>
+		<item key="selection" value="System.out"/>
 		<list key="findhistory">
+			<item value="system.out"/>
 			<item value="writer.prin"/>
 		</list>
 		<list key="replacehistory">
