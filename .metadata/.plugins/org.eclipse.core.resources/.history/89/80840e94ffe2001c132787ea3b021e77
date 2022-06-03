@@ -1,0 +1,31 @@
+package ajbc.webservice.rest.api_demo.server;
+
+import java.io.IOException;
+import java.net.ServerSocket;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+
+public class ServerThread extends Thread{
+	protected final int PORT;
+	protected ExecutorService executorService;
+	protected serverActive;
+
+	public ServerThread(int port) {
+		this.PORT = port;
+		executorService = Executors.newCachedThreadPool();
+	}
+	
+	@Override
+	public void run() {
+		try (ServerSocket serverSocket = new ServerSocket(PORT);){
+			
+			System.out.println("Inventory TCP server started on port " + PORT);
+	
+			
+		}catch (IOException e) {
+			System.err.println("Failed to start server on port " + PORT);
+			e.printStackTrace();	
+		}
+	}
+	
+}

@@ -1,0 +1,133 @@
+package ajbc.webservice.rest.api_demo.server;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.net.Socket;
+import java.util.List;
+import java.util.UUID;
+
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+
+import inventory.DBservice.MockDBService;
+import inventory.models.Device;
+import inventory.models.IotThing;
+
+public class ServerSessionThread implements Runnable {
+
+	protected Socket clientSocket;
+
+	protected IotThing iot;
+	protected List<Device> deviceList;
+
+	String reportString;
+
+	GsonBuilder gsonBuilder;
+	Gson gson;
+
+	MockDBService db;
+
+	public ServerSessionThread(Socket clientSocket) {
+		this.clientSocket = clientSocket;
+		gsonBuilder = new GsonBuilder().setPrettyPrinting();
+		gson = gsonBuilder.create();
+		db = new MockDBService();
+	}
+
+	@Override
+	public void run() {
+		System.out.println("Started inventory session " + Thread.currentThread().getName());
+
+		try (BufferedReader reader = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()))) {
+
+			System.out.println(
+					"Client is connected " + clientSocket.getInetAddress() + " port " + clientSocket.getPort());
+
+			String reportString = reader.readLine();
+
+			System.out.println("Client sent: " + reportString);
+
+			processReport(reportString);
+			updateDB();
+
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+
+		closeAllConnections();
+	}
+
+	public void processReport(String report) {
+		if (report == null)
+			return;
+
+		iot = gson.fromJson(report, IotThing.class);
+
+		deviceList = iot.getDevices();
+	}
+
+	protected synchronized void updateDB() {
+
+		if (iot == null)
+			return;
+
+		IotThing dbIot = db.getIotByUuid(iot.getUuid());
+
+		// Compare current device list in DB against the new list report, then remove
+		// the missing 'dropped' devices, before adding new devices to database
+		List<Device> deviceListInDB = db.getIotDevicesByIotUuid(iot.getUuid());
+
+		if (deviceListInDB != null) {
+			List<UUID> uuidsInDB = deviceListInDB.stream().map(p -> p.getUuid()).toList();
+			List<UUID> uuidsInReport = deviceList.stream().map(p -> p.getUuid()).toList();
+
+			List<UUID> uuidsToRemove = uuidsInDB.stream().filter(item -> !uuidsInReport.contains(item)).toList();
+			System.out.println("in db " + uuidsInDB);
+			System.out.println("in report " + uuidsInReport);
+			System.out.println("to remove " + uuidsToRemove);
+
+			if (!uuidsToRemove.isEmpty()) {
+				uuidsToRemove.forEach(item -> db.removeDeviceByUuid(item));
+			}
+		}
+
+		// now add the new information to DB
+		db.addIotToDB(iot);
+
+		if (deviceList != null && !deviceList.isEmpty()) {
+			deviceList.forEach(device -> db.addDeviceToDB(device));
+		}
+
+		// save to file for testing
+		db.saveToFile();
+
+	}
+
+	protected void closeAllConnections() {
+
+		if (clientSocket != null) {
+			try {
+				clientSocket.close();
+				System.out.println(Thread.currentThread().getName() + " connection closed");
+			} catch (IOException e) {
+				System.out.println("Cant close clientSocket");
+				e.printStackTrace();
+			}
+		}
+	}
+
+	protected void sleep(long milis) {
+		try {
+			Thread.sleep(milis);
+		} catch (InterruptedException e) {
+			System.out.println("Thread sleep interrupted");
+			e.printStackTrace();
+		}
+	}
+	
+	public void kill() {
+		sessionActive = false;
+	}
+
+}

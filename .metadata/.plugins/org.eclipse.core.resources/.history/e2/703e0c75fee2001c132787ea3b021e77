@@ -1,0 +1,33 @@
+package inventory.TcpServer;
+
+import ajbc.webservice.rest.api_demo.server.ServerThread;
+import jakarta.servlet.ServletContextEvent;
+import jakarta.servlet.ServletContextListener;
+import jakarta.servlet.annotation.WebListener;
+
+@WebListener
+
+public class MultiThreadedServerRunner implements ServletContextListener {
+	
+	public void contextInitialized(ServletContextEvent event) {
+		System.out.println("server should start here");
+	}
+	
+	public void contextDestroyedd(ServletContextEvent event) {
+		System.out.println("server should end here");
+	}
+	 
+	
+//	private final int PORT = 9090;
+//	ServerThread server;
+//	
+//	public void contextInitialized(ServletContextEvent event) {
+//		 server = new ServerThread(PORT);
+//		 server.start();
+//	}
+//
+//	
+//	public void contextDestroyed(ServletContextEvent event) {
+//		server.kill();
+//	}
+}

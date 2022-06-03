@@ -1,3 +1,5 @@
 INDEX VERSION 1.131
 C:\Users\amirs\AJBC-Part2\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2838311660.index
 \api-demo\src\main\java
+C:\Users\amirs\eclipse-workplaces\InventoryProject\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2838311660.index
+\api-demo\src\main\java

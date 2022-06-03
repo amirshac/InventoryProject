@@ -46,17 +46,17 @@ public class ClientRunner {
 		//1 - first submit
 		inventoryClient = new InventoryReportClient(thing1);
 		inventoryClient.run();
-		sleep(5000);
-		
-		// 2 - re-submit
-		inventoryClient.run();
-		sleep(5000);
-		
-		// 3- remove device
-		thing1.clearDevices();
-		inventoryClient = new InventoryReportClient(thing1);
-		inventoryClient.run();
-		sleep(1000);
+//		sleep(5000);
+//		
+//		// 2 - re-submit
+//		inventoryClient.run();
+//		sleep(5000);
+//		
+//		// 3- remove device
+//		thing1.clearDevices();
+//		inventoryClient = new InventoryReportClient(thing1);
+//		inventoryClient.run();
+//		sleep(1000);
 	}
 
 	public static void sleep(long milis) {

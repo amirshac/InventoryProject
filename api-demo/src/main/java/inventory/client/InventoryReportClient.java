@@ -10,7 +10,7 @@ import Utils.GsonUtil;
 import inventory.models.IotThing;
 
 public class InventoryReportClient implements Runnable{
-	private static final long REPORT_SLEEP_DELAY = 10000;
+	//private static final long REPORT_SLEEP_DELAY = 10000;
 	private final static String SERVER_NAME = "localhost";
 	private final static int SERVER_PORT = 9090;	
 	
