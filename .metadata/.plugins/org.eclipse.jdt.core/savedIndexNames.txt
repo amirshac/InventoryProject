@@ -53,7 +53,6 @@ INDEX VERSION 1.131+C:\Users\amirs\eclipse-workplaces\InventoryProject\.metadata
 3904634430.index
 3148531819.index
 3318800355.index
-1676305241.index
 3205144754.index
 500343823.index
 3052241918.index

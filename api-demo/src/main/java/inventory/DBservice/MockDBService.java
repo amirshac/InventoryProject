@@ -35,11 +35,11 @@ public class MockDBService {
 //		return iotMap;
 //	}
 
-	public synchronized Device getDeviceByUuid(UUID Uuid) {
+	public Device getDeviceByUuid(UUID Uuid) {
 		return deviceMap.get(Uuid);
 	}
 	
-	public synchronized Device getDeviceByUuid(String UuidString) {
+	public Device getDeviceByUuid(String UuidString) {
 		return getDeviceByUuid(UUID.fromString(UuidString));
 	}
 	
@@ -51,11 +51,11 @@ public class MockDBService {
 		return removeDeviceByUuid(UUID.fromString(UuidString));
 	}
 	
-	public synchronized IotThing getIotByUuid(UUID Uuid) {
+	public IotThing getIotByUuid(UUID Uuid) {
 		return iotMap.get(Uuid);
 	}
 	
-	public synchronized IotThing getIotByUuid(String UuidString) {
+	public IotThing getIotByUuid(String UuidString) {
 		return getIotByUuid(UUID.fromString(UuidString));
 	}
 	
@@ -67,7 +67,7 @@ public class MockDBService {
 		return removeIotByUuid(UUID.fromString(UuidString));
 	}
 	
-	public synchronized List<Device> getIotDevicesByIotUuid(UUID Uuid){
+	public List<Device> getIotDevicesByIotUuid(UUID Uuid){
 		IotThing iot = getIotByUuid(Uuid);
 		if (iot == null) return null;
 		return iot.getDevices();
@@ -95,6 +95,16 @@ public class MockDBService {
 				.collect(Collectors.toList());
 	}
 	
+	public List<Device> getDeviceByOwner(UUID ownerUuid){
+		return deviceMap.values().stream()
+				.filter(device->device.getOwnerUuid().equals(ownerUuid))
+				.collect(Collectors.toList());
+	}
+	
+	public List<Device> getDeviceByOwner(String ownerString){
+		return getDeviceByOwner(UUID.fromString(ownerString));
+	}
+	
 	public List<IotThing> getAllIots(){
 		return iotMap.values().stream().collect(Collectors.toList());
 	}
@@ -116,6 +126,8 @@ public class MockDBService {
 				.filter( device->device.getModel().toUpperCase().equals(model.toUpperCase()) )
 				.collect(Collectors.toList());
 	}
+	
+	
 	
 	/**
 	 * Adds device to DB

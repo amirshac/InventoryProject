@@ -1,17 +1,20 @@
 package inventory.models;
 
 import java.util.Random;
+import java.util.UUID;
 
 public class Device extends Hardware{
 	private final static double MIN_READING = 0;
 	private final static double MAX_READING = 100;
 	
 	protected double reading;
+	protected UUID ownerUuid;
 	
 	public Device() {}
 	
 	public Device(HardwareType type, String model, String manufacturer) {
 		super(type,model,manufacturer);
+		setReading(0);
 	}
 
 	public Device(HardwareType type, String model, String manufacturer, double reading) {
@@ -38,6 +41,14 @@ public class Device extends Hardware{
 
 	public void setReading(double reading) {
 		this.reading = reading;
+	}
+	
+	public void setOwnerUuid(UUID id) {
+		this.ownerUuid = id;
+	}
+	
+	public UUID getOwnerUuid() {
+		return this.ownerUuid;
 	}
 	
 	public void simulateRandomReading() {

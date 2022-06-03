@@ -26,13 +26,18 @@ public class DeviceResource {
 	public Response getDevices(@BeanParam DeviceFilterBean deviceFilter){
 		
 		List<Device> returnList = new ArrayList<Device>();
-		
+			
 		// empty filters means we return all devices
-		if (deviceFilter.getId() == null && deviceFilter.getType() == null && deviceFilter.getManufacturer() == null && deviceFilter.getModel() == null) {
+		if (deviceFilter.getId() == null && deviceFilter.getType() == null && deviceFilter.getManufacturer() == null && deviceFilter.getModel() == null && deviceFilter.getOwnerId() == null) {
 			returnList = db.getAllDevices();
+			
+			if (returnList.isEmpty() || returnList == null)
+				throw new MissingDataException("No devices found in database");
+				
 			return Response.ok().entity(returnList).build();
 		}
 		
+		// UUID filter
 		if (deviceFilter.getId() != null){
 			Device device = db.getDeviceByUuid(UUID.fromString(deviceFilter.getId()));
 			if (device == null) {
@@ -42,6 +47,7 @@ public class DeviceResource {
 			}
 		}	
 		
+		// type filter
 		if (deviceFilter.getType()!=null) {
 			returnList = db.getDeviceByType(deviceFilter.getType());
 			
@@ -51,6 +57,7 @@ public class DeviceResource {
 			return Response.ok().entity(returnList).build();
 		}
 		
+		// manufacturer filter
 		if (deviceFilter.getManufacturer()!=null) {
 			returnList = db.getDeviceByManufacturer(deviceFilter.getManufacturer());
 			
@@ -60,11 +67,23 @@ public class DeviceResource {
 			return Response.ok().entity(returnList).build();
 		}
 		
+		// model filter
 		if (deviceFilter.getModel()!=null) {
 			returnList = db.getDeviceByModel(deviceFilter.getModel());
 			
 			if (returnList.isEmpty()) 
 				throw new MissingDataException("No devices found by model " + deviceFilter.getModel());
+			
+			return Response.ok().entity(returnList).build();
+		}
+		
+		// ownerID filter
+		
+		if (deviceFilter.getOwnerId()!=null) {
+			returnList = db.getDeviceByOwner(deviceFilter.getOwnerId());
+			
+			if (returnList.isEmpty()) 
+				throw new MissingDataException("No devices found by owner " + deviceFilter.getOwnerId());
 			
 			return Response.ok().entity(returnList).build();
 		}

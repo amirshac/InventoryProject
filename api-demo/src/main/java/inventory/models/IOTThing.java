@@ -29,6 +29,7 @@ public class IotThing extends Hardware{
 	}
 	
 	public void setDevices(List<Device> devices) {
+		devices.forEach(device->device.setOwnerUuid(this.getUuid()));
 		this.devices = devices;
 	}
 	
@@ -37,18 +38,21 @@ public class IotThing extends Hardware{
 	}
 	
 	public void addDevice(Device device) {
+		device.setOwnerUuid(this.getUuid());
 		this.devices.add(device);
 	}
 	
 	public Device removeDevice(int index) {
 		if (index<0 || index > devices.size() ) return null;
-		return(devices.remove(index));
+		Device removedDevice = devices.remove(index);
+		removedDevice.setOwnerUuid(null);
+		return(removedDevice);
 	}
 	
 	public Device removeLastDevice() {
-		if (devices.isEmpty()) return null;
+		if (devices.isEmpty() || devices == null) return null;
 		
-		return (devices.remove(devices.size()-1));
+		return (removeDevice(devices.size()-1));
 	}	
 	
 	public void clearDevices() {

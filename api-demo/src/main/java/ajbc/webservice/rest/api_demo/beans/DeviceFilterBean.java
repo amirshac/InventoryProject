@@ -7,6 +7,7 @@ public class DeviceFilterBean {
 	@QueryParam("type") String type;
 	@QueryParam("model") String model;
 	@QueryParam("manufacturer") String manufacturer;
+	@QueryParam("owner") String ownerId;
 	
 	public DeviceFilterBean() {
 		
@@ -42,6 +43,14 @@ public class DeviceFilterBean {
 
 	public void setManufacturer(String manufacturer) {
 		this.manufacturer = manufacturer;
+	}
+	
+	public String getOwnerId() {
+		return this.ownerId;
+	}
+	
+	public void setOwnerId(String ownerId) {
+		this.ownerId = ownerId;
 	}
 
 	

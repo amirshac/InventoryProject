@@ -1,0 +1,77 @@
+package ajbc.webservice.rest.api_demo.resources;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+import java.util.UUID;
+import java.util.stream.Collectors;
+
+import ajbc.webservice.rest.api_demo.beans.DeviceFilterBean;
+import ajbc.webservice.rest.api_demo.exceptions.MissingDataException;
+import inventory.DBservice.MockDBService;
+import inventory.models.Device;
+import inventory.models.IotThing;
+import jakarta.ws.rs.Path;
+import jakarta.ws.rs.Produces;
+import jakarta.ws.rs.core.MediaType;
+import jakarta.ws.rs.core.Response;
+import jakarta.ws.rs.BeanParam;
+import jakarta.ws.rs.GET;
+
+
+@Path("iots")
+@Produces(MediaType.APPLICATION_JSON)
+
+public class IotResource {
+	MockDBService db = new MockDBService();
+	
+	@GET
+	public Response getIots(@BeanParam DeviceFilterBean deviceFilter){
+		
+		List<IotThing> returnList = new ArrayList<IotThing>();
+		
+		// empty filters means we return all devices
+		if (deviceFilter.getId() == null && deviceFilter.getType() == null && deviceFilter.getManufacturer() == null && deviceFilter.getModel() == null) {
+			returnList = db.getAllIots();
+			
+			if (returnList.isEmpty() || returnList == null)
+				throw new MissingDataException("No IOTs found in database");
+				
+			return Response.ok().entity(returnList).build();
+		}
+		
+		if (deviceFilter.getId() != null){
+			IotThing iot = db.getIotByUuid(UUID.fromString(deviceFilter.getId()));
+			if (iot == null) {
+				throw new MissingDataException("IOT ID not found");
+			}else {
+				return Response.ok().entity(iot).build();
+			}
+		}	
+		
+		if (deviceFilter.getType()!=null) {
+			returnList = db.getIotByType(deviceFilter.getType());
+			
+			if (returnList.isEmpty()) 
+				throw new MissingDataException("No IOTs found with type " + deviceFilter.getType());
+		
+			return Response.ok().entity(returnList).build();
+		}
+		
+		if (deviceFilter.getManufacturer()!=null) {
+			returnList = db.getIotByManufacturer(deviceFilter.getManufacturer());
+			
+			if (returnList.isEmpty()) 
+				throw new MissingDataException("No IOTs found by manufacturer " + deviceFilter.getManufacturer());
+				
+			return Response.ok().entity(returnList).build();
+		}
+		
+		if (deviceFilter.getModel()!=null) {
+			returnList = db.getIotByModel(deviceFilter.getModel());
+			return Response.ok().entity(returnList).build();
+		}
+		
+		return Response.ok().entity(returnList).build();
+	}
+}
