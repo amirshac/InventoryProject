@@ -1,5 +1,6 @@
 package inventory.models;
 
+import java.util.Objects;
 import java.util.UUID;
 
 public class Hardware{
@@ -79,6 +80,24 @@ public class Hardware{
 	public String toString() {
 		return "Hardware [uuid=" + uuid + ", type=" + type + ", model=" + model + ", manufacturer=" + manufacturer
 				+ "]";
+	}
+
+	@Override
+	public int hashCode() {
+		return Objects.hash(manufacturer, model, type, uuid);
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Hardware other = (Hardware) obj;
+		return Objects.equals(manufacturer, other.manufacturer) && Objects.equals(model, other.model)
+				&& type == other.type && Objects.equals(uuid, other.uuid);
 	}
 	
 	

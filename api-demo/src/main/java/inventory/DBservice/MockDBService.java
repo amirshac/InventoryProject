@@ -11,9 +11,9 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
 import Utils.GsonUtil;
+import inventory.mockDB.MockDB;
 import inventory.models.Device;
 import inventory.models.IotThing;
-import mockDB.MockDB;
 
 public class MockDBService {
 	private MockDB db;
@@ -24,17 +24,8 @@ public class MockDBService {
 		db = MockDB.getInstance();
 		deviceMap = db.getDeviceMap();
 		iotMap = db.getIotMap();
-	//	saveToFile();
 	}
 	
-//	public Map<UUID, Device> getAllDevices(){
-//		return deviceMap;
-//	}
-	
-//	public Map<UUID, IotThing> getAllIots(){
-//		return iotMap;
-//	}
-
 	public Device getDeviceByUuid(UUID Uuid) {
 		return deviceMap.get(Uuid);
 	}

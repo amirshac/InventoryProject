@@ -1,0 +1,76 @@
+package inventory.DBservice;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.UUID;
+
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.TestInstance;
+import org.junit.jupiter.api.TestInstance.Lifecycle;
+
+import inventory.models.Device;
+import inventory.models.HardwareType;
+import inventory.models.IotThing;
+
+
+@TestInstance(Lifecycle.PER_METHOD)
+
+class MockDBServiceTest {
+	
+	protected MockDBService db;
+	IotThing thing1;
+	Device device1, device2, device3;
+//	List<UUID> uuids;
+//	List<HardwareType> types;
+//	List<String> models;
+//	List<String> manufactureres;
+//	List<Double> readings;
+	
+	
+	public MockDBServiceTest(){
+		private static final double DEVICE_READINGS = 10;
+		db = new MockDBService();
+//		uuids = new ArrayList<UUID>();
+//		types = new ArrayList<HardwareType>();
+//		models= new ArrayList<String>();
+//		manufactureres = new ArrayList<String>();
+//		readings = new ArrayList<Double>();
+		seedTestObjects();
+	}
+	
+//	void seedTestLists() {
+//		uuids.addAll(Arrays.asList(
+//				UUID.nameUUIDFromBytes("test1".getBytes()),
+//				UUID.nameUUIDFromBytes("test2".getBytes()),
+//				UUID.nameUUIDFromBytes("test3".getBytes()),
+//				UUID.nameUUIDFromBytes("test4".getBytes()))
+//				);
+//		
+//		
+//	}
+	void seedTestObjects() {
+		Device device1 = new Device("test1".getBytes(),HardwareType.ACTUATOR, "Act-02", "SolarEdge");
+		device1.setReading(DEVICE_READINGS);
+		Device device2 = new Device("test2".getBytes(),HardwareType.CONTROLLER, "Cont-02", "Samsung");
+		device2.setReading(10);
+		Device device3 = new Device("test3".getBytes(),HardwareType.SENSOR, "Sens-02", "AMD");
+		device3.setReading(10);
+		
+		List<Device> deviceList1 = new ArrayList<Device>();
+		deviceList1.addAll(Arrays.asList(device1, device2, device3));
+		
+		thing1 = new IotThing("test4".getBytes(),HardwareType.IOT, "Reporter-02", "SolarEdge");
+		thing1.setDevices(deviceList1);
+	}
+	
+	@Test
+	@DisplayName("No color is NULL")
+	void test() {
+		fail("Not yet implemented");
+	}
+
+}

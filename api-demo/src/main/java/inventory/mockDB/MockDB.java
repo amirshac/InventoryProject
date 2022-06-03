@@ -1,0 +1,91 @@
+package inventory.mockDB;
+
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.UUID;
+import java.util.function.Function;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
+
+import inventory.models.Device;
+import inventory.models.HardwareType;
+import inventory.models.IotThing;
+
+public class MockDB {
+	private static MockDB instance = null;
+	private Map<UUID, Device> deviceMap;
+	private Map<UUID, IotThing> iotMap;
+	
+	public static synchronized MockDB getInstance() {
+		if (instance == null)
+			instance = new MockDB();
+		return instance;
+	}
+	
+	private MockDB() {
+		deviceMap = new HashMap<UUID, Device>();
+		iotMap = new HashMap<UUID, IotThing>();
+		
+		// seeding the db
+		seedDevices();	
+	}
+	
+	private void seedDevices() {
+		List<Device> deviceList1 = Arrays.asList( 
+				new Device("db1".getBytes(), HardwareType.ACTUATOR, "Act-01", "SolarEdge"),
+				new Device("db2".getBytes(), HardwareType.CONTROLLER, "Cont-01", "Samsung"),
+				new Device("db3".getBytes(), HardwareType.SENSOR, "Sens-01", "AMD"),
+				new Device("db4".getBytes(), HardwareType.SOLARPANEL, "Panel-01", "SolarEdge"));
+		
+		
+		IotThing thing1 = new IotThing("dbiot1".getBytes(), HardwareType.IOT, "Reporter-01", "SolarEdge");
+		thing1.setDevices(deviceList1);
+		iotMap.put(thing1.getUuid(), thing1);
+		
+		List<Device> deviceList2 = Arrays.asList( 
+				new Device("db5".getBytes(), HardwareType.ACTUATOR, "Act-01", "SolarEdge"),
+				new Device("db6".getBytes(), HardwareType.CONTROLLER, "Cont-01", "Samsung"),
+				new Device("db7".getBytes(), HardwareType.SENSOR, "Sens-01", "AMD"),
+				new Device("db8".getBytes(), HardwareType.SOLARPANEL, "Panel-01", "SolarEdge"));
+		
+		IotThing thing2 = new IotThing("dbiot2".getBytes(), HardwareType.IOT, "Reporter-01", "SolarEdge");
+		thing2.setDevices(deviceList2);
+		iotMap.put(thing2.getUuid(), thing2);
+		
+		List<Device> deviceList3 = Arrays.asList( 
+				new Device("db9".getBytes(), HardwareType.ACTUATOR, "Act-01", "SolarEdge"),
+				new Device("db10".getBytes(), HardwareType.CONTROLLER, "Cont-01", "Samsung"),
+				new Device("db11".getBytes(), HardwareType.SENSOR, "Sens-01", "AMD"),
+				new Device("db12".getBytes(), HardwareType.SOLARPANEL, "Panel-01", "SolarEdge"));
+		
+		IotThing thing3 = new IotThing("dbiot3".getBytes(), HardwareType.IOT, "Reporter-01", "SolarEdge");
+		thing3.setDevices(deviceList3);
+		iotMap.put(thing3.getUuid(), thing3);
+		
+		// add all devices to device map
+		deviceList1.forEach(e->deviceMap.put(e.getUuid(), e));
+		deviceList2.forEach(e->deviceMap.put(e.getUuid(), e));
+		deviceList3.forEach(e->deviceMap.put(e.getUuid(), e));
+		
+	}
+	
+	public Map<UUID, Device> getDeviceMap(){
+		return this.deviceMap;
+	}
+	
+	public Map<UUID, IotThing> getIotMap(){
+		return this.iotMap;
+	}
+	
+	
+	public synchronized void setDeviceMap(Map<UUID, Device> deviceMap) {
+		this.deviceMap = deviceMap;
+	}
+	
+	public synchronized void setIotMap(Map<UUID, IotThing> iotMap) {
+		this.iotMap = iotMap;
+	}
+	
+}

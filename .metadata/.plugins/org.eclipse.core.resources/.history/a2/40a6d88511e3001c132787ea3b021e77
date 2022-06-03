@@ -1,0 +1,31 @@
+package inventory.DBservice;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.TestInstance;
+import org.junit.jupiter.api.TestInstance.Lifecycle;
+
+
+@TestInstance(Lifecycle.PER_METHOD)
+
+class MockDBServiceTest {
+	
+	protected MockDBService db = new MockDBService();
+	
+	public MockDBServiceTest(){
+		db = new MockDBService();
+	}
+	
+	void seedTestObjects() {
+		
+	}
+	
+	@Test
+	@DisplayName("No color is NULL")
+	void test() {
+		fail("Not yet implemented");
+	}
+
+}

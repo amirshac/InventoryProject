@@ -1,0 +1,95 @@
+package inventory.DBservice;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.UUID;
+
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.TestInstance;
+import org.junit.jupiter.api.TestInstance.Lifecycle;
+
+import inventory.models.Device;
+import inventory.models.HardwareType;
+import inventory.models.IotThing;
+
+
+@TestInstance(Lifecycle.PER_METHOD)
+
+class MockDBServiceTest {
+	
+	protected MockDBService db;
+	IotThing iot1;
+	Device device1, device2, device3;
+	private static final double DEVICE_READINGS = 10;
+	
+	
+	public MockDBServiceTest(){
+		db = new MockDBService();
+		seedTestObjects();
+	}
+
+	void seedTestObjects() {
+		device1 = new Device("test1".getBytes(),HardwareType.ACTUATOR, "Act-02", "SolarEdge");
+		device1.setReading(DEVICE_READINGS);
+		device2 = new Device("test2".getBytes(),HardwareType.CONTROLLER, "Cont-02", "Samsung");
+		device2.setReading(DEVICE_READINGS);
+		device3 = new Device("test3".getBytes(),HardwareType.SENSOR, "Sens-02", "AMD");
+		device3.setReading(DEVICE_READINGS);
+		
+		iot1 = new IotThing("iottest".getBytes(),HardwareType.IOT, "Reporter-02", "SolarEdge");
+		iot1.addDevice(device1);
+		iot1.addDevice(device2);
+		iot1.addDevice(device3);
+	}
+	
+	@Test
+	@DisplayName("Adding Device to DB and getting device by UUID Test")
+	void testAddDeviceToDB() {
+		Device expectedDevice = device1;
+		Device resultDevice = null;
+		
+		db.addDeviceToDB(expectedDevice);
+		resultDevice = db.getDeviceByUuid(expectedDevice.getUuid());
+		
+		assertEquals(expectedDevice, resultDevice);
+	}
+	
+	@Test
+	@DisplayName("Getting existing device from DB by all methods test")
+	void testGetDeviceByAllMethods() {
+		Device expectedDevice = device1;
+		Device resultDevice = null;
+		List<Device> expectedList = new ArrayList<Device>(Arrays.asList(device1));
+		List<Device> resultList = new ArrayList<Device>();
+	}
+	
+	@Test
+	@DisplayName("Failing to get devices missing from DB by all get methods test")
+	void testGetDeviceNotInDB() {
+		Device expectedDevice = null;
+		Device resultDevice = null;
+		List<Device> expectedList = new ArrayList<Device>();
+		List<Device> resultList = new ArrayList<Device>();
+		
+		resultDevice = db.getDeviceByUuid(UUID.nameUUIDFromBytes("nonexistant".getBytes()));
+		assertEquals(expectedDevice, resultDevice);
+		
+		resultList = db.getDeviceByType("NOTEXIST");
+		assertEquals(expectedList, resultList);
+		
+		resultList = db.getDeviceByModel("NOTEXIST");
+		assertEquals(expectedList, resultList);
+		
+		resultList = db.getDeviceByManufacturer("NOTEXIST");
+		assertEquals(expectedList, resultList);
+		
+		resultList = db.getDeviceByOwner(UUID.nameUUIDFromBytes("nonexistant".getBytes()));
+		assertEquals(expectedList, resultList);
+	}
+	
+
+}

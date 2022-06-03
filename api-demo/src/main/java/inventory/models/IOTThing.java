@@ -29,8 +29,14 @@ public class IotThing extends Hardware{
 	}
 	
 	public void setDevices(List<Device> devices) {
+		if (devices == null) return;
+		
 		devices.forEach(device->device.setOwnerUuid(this.getUuid()));
 		this.devices = devices;
+	}
+	
+	public void addDevices(List<Device> devices) {
+		setDevices(devices);
 	}
 	
 	public List<Device> getDevices(){

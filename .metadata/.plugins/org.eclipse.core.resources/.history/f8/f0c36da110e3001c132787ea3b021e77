@@ -1,0 +1,21 @@
+package inventory.DBservice;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.TestInstance;
+import org.junit.jupiter.api.TestInstance.Lifecycle;
+
+
+@TestInstance(Lifecycle.PER_METHOD)
+
+class MockDBServiceTest {
+	
+	MockDBService db = new MockDBService();
+	
+	@Test
+	void test() {
+		fail("Not yet implemented");
+	}
+
+}

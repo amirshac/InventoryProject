@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="MockDBServiceTest" project="api-demo" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="inventory.DBservice.MockDBServiceTest" time="0.013" displayname="MockDBServiceTest" uniqueid="[engine:junit-jupiter]/[class:inventory.DBservice.MockDBServiceTest]">
+    <testcase name="testAddDeviceToDB" classname="inventory.DBservice.MockDBServiceTest" time="0.011" displayname="Adding Device to DB and getting device by UUID Test" uniqueid="[engine:junit-jupiter]/[class:inventory.DBservice.MockDBServiceTest]/[method:testAddDeviceToDB()]"/>
+    <testcase name="testGetDeviceNotInDB" classname="inventory.DBservice.MockDBServiceTest" time="0.001" displayname="Getting device thats not in DB by all get methods TEST" uniqueid="[engine:junit-jupiter]/[class:inventory.DBservice.MockDBServiceTest]/[method:testGetDeviceNotInDB()]"/>
+  </testsuite>
+</testrun>
